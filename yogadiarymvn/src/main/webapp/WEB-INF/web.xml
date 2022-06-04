@@ -1,0 +1,106 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+   <servlet>
+  	<servlet-name>CreateAccountServlet</servlet-name>
+  	<display-name>CreateAccountServlet</display-name>
+  	<description>新規登録画面</description>
+  	<servlet-class>CreateAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DropServlet</servlet-name>
+  	<display-name>DropServlet</display-name>
+  	<description>日記削除画面</description>
+  	<servlet-class>DropServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>ListServlet</servlet-name>
+  	<display-name>ListServlet</display-name>
+  	<description>ログイン画面</description>
+  	<servlet-class>ListServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description>新規登録画面</description>
+  	<servlet-class>LoginServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description>ログアウト画面</description>
+  	<servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>NewServlet</servlet-name>
+  	<display-name>NewServlet</display-name>
+  	<description>日記新規登録画面</description>
+  	<servlet-class>NewServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowServlet</servlet-name>
+  	<display-name>ShowServlet</display-name>
+  	<description>日記詳細画面</description>
+  	<servlet-class>ShowServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>TeacherRegisterServlet</servlet-name>
+  	<display-name>TeacherRegisterServlet</display-name>
+  	<description>先生登録画面</description>
+  	<servlet-class>TeacherRegisterServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description>日記更新画面</description>
+  	<servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CreateAccountServlet</servlet-name>
+  	<url-pattern>/CreateAccountServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DropServlet</servlet-name>
+  	<url-pattern>/DropServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>ListServlet</servlet-name>
+  	<url-pattern>/ListServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>NewServlet</servlet-name>
+  	<url-pattern>/NewServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ShowServlet</servlet-name>
+  	<url-pattern>/ShowServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>TeacherRegisterServlet</servlet-name>
+  	<url-pattern>/TeacherRegisterServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
